@@ -13,4 +13,5 @@ Conceitos iniciais:
         - Listas
         - Loop
         - Tipos de loops (Foreach)
+        - Entendendo index 
         

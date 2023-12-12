@@ -16,4 +16,7 @@ Conceitos iniciais:
         - Loop
         - Tipos de loops (Foreach)
         - Entendendo index 
+        - funções list e unset
+        - importando arquivos (include, require, require_once)
+        - Um pouco de PHP na web
         

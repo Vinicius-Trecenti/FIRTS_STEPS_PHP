@@ -21,3 +21,8 @@ function depositar( $conta, $valor ) {
     }
     return $conta;
 }
+
+// o & indica que estamos alterando a variavel de fato
+function maiuscula ( &$conta,) {
+    $conta['titular'] = strtoupper($conta['titular']);
+}

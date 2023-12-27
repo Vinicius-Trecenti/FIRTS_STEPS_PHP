@@ -19,4 +19,9 @@ Conceitos iniciais:
         - funções list e unset
         - importando arquivos (include, require, require_once)
         - Um pouco de PHP na web
-        
+
+    3º Modulo
+        - Aprendendo a ordenar arrays com sort
+        - Como definir uma função de ordenação com usort
+        - Conhecemos várias outras funções de ordenação como asort, ksor
+0

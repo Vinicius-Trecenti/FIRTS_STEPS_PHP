@@ -24,4 +24,7 @@ Conceitos iniciais:
         - Aprendendo a ordenar arrays com sort
         - Como definir uma função de ordenação com usort
         - Conhecemos várias outras funções de ordenação como asort, ksor
-0
+        - Aprendemos a verificar se uma variável é um array
+        - Vimos como validar se uma chave existe em um array
+        - Conhecemos formas de verificar se um valor existe no array
+        - Aprendemos a buscar elementos em um array

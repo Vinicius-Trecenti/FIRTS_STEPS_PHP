@@ -28,3 +28,8 @@ Conceitos iniciais:
         - Vimos como validar se uma chave existe em um array
         - Conhecemos formas de verificar se um valor existe no array
         - Aprendemos a buscar elementos em um array
+
+    4º Modulo - POO
+        - Criação de classes e objetos
+        - Definição de atributos
+        - Referencia na memoria para o objeto

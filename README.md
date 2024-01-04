@@ -3,7 +3,6 @@ Aprendendo PHP com a Alura - Primeiros passos
 
 Conceitos iniciais: 
 
-
     1º Modulo
         - Decisoes
         - Print

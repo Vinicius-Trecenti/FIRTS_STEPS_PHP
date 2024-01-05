@@ -1,9 +1,14 @@
 <?php
 
-require('4º Modulo - POO/src/Conta.php');
+require('src/Conta.php');
 
 $primeiraConta = new Conta();
-$primeiraConta->cpf = '556.888.777-96';
-$primeiraConta->titular = 'Vinicius';
+$conta2 = new Conta();
+
+$primeiraConta->cpfTitular = '556.888.777-96';
+$primeiraConta->nomeTitular = 'Vinicius';
 $primeiraConta->saldo = 2000.00;
+
+
+$primeiraConta->transferir(100, $conta2);
 var_dump($primeiraConta);

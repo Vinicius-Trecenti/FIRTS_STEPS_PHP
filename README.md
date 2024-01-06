@@ -31,3 +31,5 @@ Conceitos iniciais:
         - Criação de classes e objetos
         - Definição de atributos
         - Referencia na memoria para o objeto
+        - Adicionar comportamento às instâncias
+        - Que variável $this tem a referência para o objeto que chamou o método atual

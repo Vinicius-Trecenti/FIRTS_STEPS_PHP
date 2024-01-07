@@ -2,9 +2,10 @@
 
 require('src/Conta.php');
 require('src/Titular.php');
+require('src/cpf.php');
 
-$primeiraConta = new Conta(new Titular('123.456.789-10', 'Vinicius Trecenti'));
-$conta2 = new Conta(new Titular('123.466.789', 'Teste'));
+$primeiraConta = new Conta(new Titular('Vinicius Trecenti', new cpf('123.456.789-10')));
+$conta2 = new Conta(new Titular('Teste', new cpf( '123.466.789-10')));
 
 // $primeiraConta->cpfTitular = '556.888.777-96';
 // $primeiraConta->nomeTitular = 'Vinicius';
@@ -15,4 +16,4 @@ $conta2 = new Conta(new Titular('123.466.789', 'Teste'));
 
 //$primeiraConta->transferir(100, $conta2);
 echo "Quantidade:" . Conta::quantidadeContas() . PHP_EOL;
-var_dump($primeiraConta);
+var_dump($conta2);

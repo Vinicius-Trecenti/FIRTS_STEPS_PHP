@@ -4,8 +4,9 @@ class Titular{
     private $nome;
     private $cpf;
 
-    public function __construct(string $nome, string $cpf) {
+    public function __construct(string $nome, cpf $cpf) {
         $this->validarNome($nome);
+        $this->nome = $nome;
         $this->cpf  = $cpf;
     }
 
@@ -14,9 +15,7 @@ class Titular{
             echo "Nome deve ter mais de 5 caracteres";
             exit();
         }
-        else{
-            $this->nome = $nome;
-        }
+        
     }
 
     public function getNome(){

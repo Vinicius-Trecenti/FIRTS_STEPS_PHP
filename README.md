@@ -33,3 +33,7 @@ Conceitos iniciais:
         - Referencia na memoria para o objeto
         - Adicionar comportamento às instâncias
         - Que variável $this tem a referência para o objeto que chamou o método atual
+        - (__construct)
+        - Métodos e atributos privados em classes
+        - Métodos e atribtuos static - da própria classe, e não de cada instância
+        

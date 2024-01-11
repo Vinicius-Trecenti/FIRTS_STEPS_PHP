@@ -1,11 +1,14 @@
 <?php
 
 require('src/Conta.php');
+require('src/Endereco.php');
+
 require('src/Titular.php');
 require('src/cpf.php');
 
-$primeiraConta = new Conta(new Titular('Vinicius Trecenti', new cpf('123.456.789-10')));
-$conta2 = new Conta(new Titular('Teste', new cpf( '123.466.789-10')));
+$endereco = new Endereco('Caragua', 'indaia', 'Da praia','671');
+$primeiraConta = new Conta(new Titular('Vinicius Trecenti', new cpf('123.456.789-10'), $endereco));
+$conta2 = new Conta(new Titular('Teste', new cpf( '123.466.789-10'), $endereco));
 
 // $primeiraConta->cpfTitular = '556.888.777-96';
 // $primeiraConta->nomeTitular = 'Vinicius';

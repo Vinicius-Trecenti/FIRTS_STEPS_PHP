@@ -1,5 +1,8 @@
 <?php
 
+require('src/Pessoa.php');
+require('src/Funcionario.php');
+
 require('src/Conta.php');
 require('src/Endereco.php');
 

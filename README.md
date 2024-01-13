@@ -37,3 +37,6 @@ Conceitos iniciais:
         - Métodos e atributos privados em classes
         - Métodos e atribtuos static - da própria classe, e não de cada instância
         - um objeto tenha outro objeto como valor de um de seus atributos. Isto é chamado de composição
+        - Herança
+        - Parent::
+        - Public, Private e Protected

@@ -41,3 +41,6 @@ Conceitos iniciais:
         - Parent::
         - Public, Private e Protected
         - Namespace
+        - Autoload - Funtionc spl_autoload_register
+        
+

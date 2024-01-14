@@ -1,4 +1,6 @@
-# Aprendendo PHP com a Alura
+# Aprendendo PHP com a Alura :elephant:
+
+
 
 Conceitos iniciais: 
 

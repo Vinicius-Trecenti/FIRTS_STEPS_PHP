@@ -1,7 +1,5 @@
 # Aprendendo PHP com a Alura :elephant:
 
-
-
 Conceitos iniciais: 
 
     1º Modulo
@@ -44,5 +42,6 @@ Conceitos iniciais:
         - Public, Private e Protected
         - Namespace
         - Autoload - Funtionc spl_autoload_register
+        - Classes que ainda não estão prontas para serem instanciadas e precisam ser estendidas (classes abstratas), os métodos abstratos, que são uma forma de "obrigar" que classes filhas implementem determinado método;
         
 

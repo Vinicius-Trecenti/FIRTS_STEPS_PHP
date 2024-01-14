@@ -1,7 +1,7 @@
 <?php
 
-class Conta
-{
+namespace Alura\Banco\Modelo\conta;
+class Conta{
     private $titular;
     private float $saldo ;
     private static $quantidadeContas;

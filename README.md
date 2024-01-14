@@ -40,3 +40,4 @@ Conceitos iniciais:
         - Herança
         - Parent::
         - Public, Private e Protected
+        - Namespace

@@ -50,3 +50,8 @@ Conceitos iniciais:
         - Conhecendo e implementando o __toString e o __get
 
     5º Modulo - 
+        - Como abrir um arquivo com fopen
+        - Como fechar um arquivo com fclose
+        - Como ler uma linha com fgets ou fread
+        - Como ler uma linha com fgets ou fread
+        - Como ler todo o conteúdo com file_get_contents ou file

@@ -10,8 +10,12 @@
 // + - leitura e escrita
 // consultar documentacao do fopen()
 // $arquivo = fopen('cursos-php.txt', 'a');
-$cursos = "\n CURSO DE ARQUIVOS COM PHP 3";
-file_put_contents('cursos-php.txt', $cursos);
+$cursos = "\n CURSO DE ARQUIVOS COM PHP 4";
+
+//flags 
+//file append - adiciona no final
+
+file_put_contents('cursos-php.txt', $cursos, FILE_APPEND);
 
 // NO ARQUIVO SERA ESCRICO CURSOS PODENDO INFORMAR QUANTOS CARACTERES
 // fwrite($arquivo, $cursos );

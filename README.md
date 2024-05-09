@@ -55,3 +55,4 @@ Conceitos iniciais:
         - Como ler uma linha com fgets ou fread
         - Como ler uma linha com fgets ou fread
         - Como ler todo o conteúdo com file_get_contents ou file
+        - A utilizar a função file_put_contents junto com a flag FILE_APPEND, para escrever no final de um arquivo

@@ -56,3 +56,9 @@ Conceitos iniciais:
         - Como ler uma linha com fgets ou fread
         - Como ler todo o conteúdo com file_get_contents ou file
         - A utilizar a função file_put_contents junto com a flag FILE_APPEND, para escrever no final de um arquivo
+        - Como ler dados do teclado ao utilizar o stream STDIN
+        - Como escrever na tela como se o console fosse um arquivo, utilizando o STDOUT e STDERR
+        - Que a função responsável para criar contextos é a stream_context_create
+        - Que cada wrapper de stream possui suas possíveis opções de contexto
+            - Em http://, vimos como definir o método, cabeçalhos e conteúdo da requisição
+            - Em zip://, nós aprendemos a definir a senha para abrir o arquivo

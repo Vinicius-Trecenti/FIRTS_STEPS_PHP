@@ -62,3 +62,4 @@ Conceitos iniciais:
         - Que cada wrapper de stream possui suas possíveis opções de contexto
             - Em http://, vimos como definir o método, cabeçalhos e conteúdo da requisição
             - Em zip://, nós aprendemos a definir a senha para abrir o arquivo
+        - Como trabalhar com arquivos no formato CSV, utilizando as funções fputcsv e fgetcsv
